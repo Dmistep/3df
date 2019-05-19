@@ -1,0 +1,49 @@
+/** 
+ * ===================================================================
+ * 16. stats - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+ body{
+    background: #262533;
+    margin:0;
+    padding:0;
+}
+
+
+/*--------------------------------*/
+.overview__single {
+  padding: 30px 25px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all .4s; }
+  
+  .overview__single__icon {
+    margin-right: 15px; }
+    
+    .overview__single__icon i,
+    .overview__single__icon span {
+      font-size: 2.625rem;
+      color: #f9cc41; }
+  .overview__single .media-body h3 {
+    font-size: 32px;
+    color: #fff ;
+    font-weight: 500;
+    margin-bottom: .2rem; }
+  .overview__single .media-body p{
+  color:#fff;
+    margin-bottom: 0; }
+    
+  .overview__single:hover {
+    background: #f9cc41;
+    color: #262533; }
+    
+    .overview__single:hover h3 {
+      color: #262533; }
+      .overview__single:hover p{
+      color: #262533; }
+      
+    .overview__single:hover .overview__single__icon i,
+    .overview__single:hover .overview__single__icon span {
+      color: #262533; }
+
+
